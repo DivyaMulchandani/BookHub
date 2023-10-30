@@ -6,12 +6,82 @@
     tools:context=".fragment.profile">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/txtprofile"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/profile_fragment"
-        android:textSize="20sp"
-        android:padding="10dp"/>
+   <EditText
+       android:id="@+id/first_name"
+       android:layout_width="167dp"
+       android:layout_height="48dp"
+       android:layout_marginTop="150dp"
+       android:layout_marginStart="27dp"
+       android:inputType="text"
+       android:hint="First Name"
+       android:padding="15dp"
+       android:background="@drawable/bg"/>
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/first_name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@drawable/bg"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="27dp"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:background="@drawable/bg"
+        android:hint="Email id"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="294dp"
+        android:layout_marginLeft="27dp"
+        android:hint="Password"/>
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="15dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="358dp"
+        android:layout_marginLeft="27dp"
+        android:hint="Phone"/>
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@drawable/bg"
+        android:layout_marginTop="422dp"
+        android:layout_marginLeft="27dp"
+        android:hint="Gender"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#245DA6"
+         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="27dp"
+        android:text="Button" />
 
 </RelativeLayout>

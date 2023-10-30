@@ -22,4 +22,6 @@
     <string name="profile_fragment">Profile_fragment</string>
     <string name="about_app_fragment">About App Fragment</string>
     <string name="sort">Sort</string>
+    <string name="app_name_bookhub">App Name: BookHub</string>
+    <string name="welcome_to_bookhub_your_ultimate_destination_for_all_things_literary_dive_into_a_world_of_books_stories_and_knowledge_with_our_feature_rich_book_store_app">Welcome to BookHub, your ultimate destination for all things literary. Dive into a world of books, stories, and knowledge with our feature-rich book store app.</string>
 </resources>
