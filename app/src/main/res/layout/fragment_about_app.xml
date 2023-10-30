@@ -10,9 +10,18 @@
         android:id="@+id/txtaboutapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/about_app_fragment"
+        android:text="@string/app_name_bookhub"
         android:textSize="20sp"
         android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_bookhub_your_ultimate_destination_for_all_things_literary_dive_into_a_world_of_books_stories_and_knowledge_with_our_feature_rich_book_store_app"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_below="@+id/txtaboutapp"/>
 
 
 </RelativeLayout>
